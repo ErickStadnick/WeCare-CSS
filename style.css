@@ -135,27 +135,24 @@ p{
 
 @media screen and (max-width: 900px){
 
-    body{
-        width: 390px;
-        height: 800px;
-        margin-left: auto;
-}
+    body {
+        width: 100%;
+        max-width: 390px; /* opcional, se quiser limitar a largura */
+        max-height: 800px;
+        height: auto;
+        margin: 0 auto; /* centraliza corretamente */
     }
 
-    div{
-        display: none;
-    }
+    div { display: none; }
+    p   { display: none; }
 
-    p{
-        display: none;
-    }
-
-    img{
+    img {
         display: block;
         width: 100%;
         height: auto;
-        margin-left: auto; 
-        padding: 20px;       
+        margin: 0 auto;
+        margin-top: 113px;
+        padding: 0 20px;
     }
 
     h1{
@@ -184,7 +181,4 @@ p{
         text-align: center;
         margin: 120px auto;
     }
-
-
-
 }
